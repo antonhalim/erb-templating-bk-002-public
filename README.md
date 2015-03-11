@@ -20,7 +20,7 @@ Before anything, you're going to need to create a simple Movie class. Instances 
 
 #### #make_index!
 
-You'll create a class, SiteGenerator, that is reponsible for, well, generating our site. You won't be jumping directly into using ERB righ away, though. The first method you'll need to write is `make_index!`. This method will, based upon your Movie instances, generate an index page. (Note: You will have to pay very close attention to formatting!)
+You'll create a class, SiteGenerator, that is reponsible for, well, generating our site. You won't be jumping directly into using ERB right away, though. The first method you'll need to write is `make_index!`. This method will, based upon your Movie instances, generate an index page. (Note: You will have to pay very close attention to formatting!)
 
 For this method, you will build up a string and manually write it to a file, `_site/index.html`. It's going to be difficult to match the formatting that the test expects, but you can do it!
 
